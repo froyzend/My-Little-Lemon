@@ -1,0 +1,27 @@
+.navListFooter {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.itemFooter {
+    font-family: "Jua",
+        sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #fff;
+}
+
+.itemFooter:hover {
+    color: rgb(211, 32, 32);
+}
+
+.subtitleColumn {
+    font-family: "Jua",
+        sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #fff;
+    margin-bottom: 15px;
+}

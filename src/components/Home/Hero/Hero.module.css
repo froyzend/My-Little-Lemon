@@ -1,0 +1,49 @@
+.hero {
+    padding: 80px 65px;
+}
+
+.containerText {
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-family: "Dongle",
+        sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+}
+
+.title>span {
+    color: #91f543;
+}
+
+
+.text {
+    font-family: "Jua",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff9f9;
+}
+
+.btnContainer {
+    display: flex;
+    gap: 50px;
+}
+
+.btn {
+    max-width: 120px;
+    font-family: "Jua",
+        sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    background-color: #ff0202;
+    border-radius: 7px;
+    border: none;
+    padding: 8px 16px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}

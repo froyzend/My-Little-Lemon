@@ -1,0 +1,19 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 65px;
+}
+
+.logo {
+    font-family: "Lily Script One",
+        sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.logoSpan {
+    color: #91f543;
+}

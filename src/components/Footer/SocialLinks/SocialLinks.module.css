@@ -1,0 +1,31 @@
+.socialIcons {
+    display: flex;
+    /* gap: 5px; */
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.socialIcon {
+    font-family: "Jua", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+    transition: color 0.3ms ease-in-out;
+}
+
+.socialIcon:hover {
+    color: rgb(211, 32, 32);
+}
+
+
+.subtitleColumn {
+    font-family: "Jua",
+        sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: #fff;
+    margin-bottom: 15px;
+}

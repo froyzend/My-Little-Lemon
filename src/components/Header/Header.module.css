@@ -1,0 +1,21 @@
+.containerHeader {
+    padding: 0 65px;
+    display: flex;
+    align-items: center;
+    background: rgba(217, 217, 217, 0.08);
+}
+
+.logo {
+    font-family: "Lily Script One",
+        sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin-left: 40px;
+    margin-right: 20%;
+}
+
+.logoSpan {
+    color: #91f543;
+}
