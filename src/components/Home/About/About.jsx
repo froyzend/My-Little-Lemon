@@ -1,6 +1,6 @@
 import css from "./About.module.css";
-import About1 from "../../../assets/About1.png";
-import About2 from "../../../assets/About2.png";
+import About1 from "../../../assets/about1.png";
+import About2 from "../../../assets/about2.png";
 
 const About = () => {
   return (
