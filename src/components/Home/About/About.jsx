@@ -12,8 +12,10 @@ const About = () => {
           molestiae quia soluta distinctio minus ab quidem ad totam saepe at eos
           dolorum facere, laboriosam vitae veniam nihil id alias.
         </p>
-        <img src={About1} alt="Team1" />
-        <img src={About2} alt="Team" />
+        <div>
+          <img src={About1} alt="Team1" width={360} />
+          <img src={About2} alt="Team" width={360} />
+        </div>
       </div>
     </section>
   );
