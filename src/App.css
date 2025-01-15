@@ -16,10 +16,17 @@ body {
 
 }
 
-img,
+
 svg {
   display: block;
   max-width: 100%;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  height: auto;
 }
 
 button,
