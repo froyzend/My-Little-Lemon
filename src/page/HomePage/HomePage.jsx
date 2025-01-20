@@ -3,6 +3,7 @@ import Hero from "../../components/Home/Hero/Hero.jsx";
 import Footer from "../../components/Footer/Footer.jsx";
 import css from "./HomePage.module.css";
 import About from "../../components/Home/About/About.jsx";
+import Services from "../../components/Home/Services/Services.jsx";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
         <Header />
         <Hero />
       </div>
+      <Services />
       <About />
       <Footer />
     </div>
