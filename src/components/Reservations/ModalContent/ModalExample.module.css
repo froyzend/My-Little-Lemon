@@ -1,0 +1,112 @@
+/* Стили для кнопок */
+.btnContainer {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.triggerButton {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.5;
+    width: 140px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 200ms ease;
+    cursor: pointer;
+    background: #4caf50;
+    border: none;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.triggerButton:hover {
+    background: #45a049;
+    /* Темнее при наведении */
+}
+
+.triggerButton:focus-visible {
+    box-shadow: 0 0 0 4px rgba(76, 175, 80, 0.4);
+    outline: none;
+}
+
+.triggerButton:active {
+    transform: scale(0.96);
+    /* Эффект "нажатия" */
+}
+
+/* Стили модального окна */
+.modalContent {
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #fff;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    color: #333;
+    max-width: 500px;
+    width: 90%;
+    animation: fadeIn 400ms ease-out forwards;
+}
+
+.styledBackdrop {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+
+    /* Анимация появления фона */
+    animation: fadeBackdrop 400ms ease-out forwards;
+}
+
+@keyframes fadeBackdrop {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+        /* Уменьшенный размер */
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+        /* Полный размер */
+    }
+}
+
+/* Контейнер для кнопок */
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+/* Индивидуальные стили для кнопок */
+.confirmButton {
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.cancelButton {
+    background-color: #f44336;
+    color: #fff;
+}

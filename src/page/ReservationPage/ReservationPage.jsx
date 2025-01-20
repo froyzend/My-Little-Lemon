@@ -6,7 +6,7 @@ const ReservationPage = () => {
   return (
     <div>
       <Header />
-      <h1>Reserve a Table</h1>
+
       <ReservationForm />
       <Footer />
     </div>
